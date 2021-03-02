@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :phoenix_discuss, PhoenixDiscuss.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "RTX4.Cm8jnr4d.",
   database: "phoenix_discuss_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
