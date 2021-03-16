@@ -16,6 +16,16 @@ defmodule PhoenixDiscussWeb do
   below. Instead, define any helper function in modules
   and import those modules here.
   """
+  
+  def model do
+      quote do
+        use Ecto.Schema
+
+        import Ecto
+        import Ecto.Changeset
+        import Ecto.Query
+      end
+  end
 
   def controller do
     quote do
