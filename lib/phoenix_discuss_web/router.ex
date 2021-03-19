@@ -16,9 +16,14 @@ defmodule PhoenixDiscussWeb.Router do
   scope "/", PhoenixDiscussWeb do
     pipe_through :browser
 
-    get "/", TopicController, :index
-    get "/topics/new", TopicController, :new
-    post "/topics", TopicController, :create
+    #REST convention
+    # get "/", TopicController, :index
+    # get "/topics/new", TopicController, :new
+    # post "/topics", TopicController, :create
+    # get "/topics/:id/edit", TopicController, :edit
+    # put "topics/:id", TopicController, :update
+    #Phoenix resources
+    resources "/", TopicController
 
   end
 
