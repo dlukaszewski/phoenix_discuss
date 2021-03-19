@@ -1,6 +1,6 @@
 defmodule PhoenixDiscussWeb.TopicController do
    use PhoenixDiscussWeb, :controller
-   
+
     alias PhoenixDiscuss.Topic
     alias PhoenixDiscuss.Repo
 

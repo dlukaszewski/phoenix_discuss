@@ -30,8 +30,12 @@
   display: none;
 }
 .invalid-feedback {
-  color: #a94442;
-  display: ;
-  margin: 25px;
+  color: red;
+  text-transform: capitalize;
+  top: 35px;
+}
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
 }
 
